@@ -2,7 +2,7 @@
 using namespace std;
 
 class Pessoa {
-    private: // Atributos da minha classe
+    private: // Atributos da classe
         string nome;
         int idade;
         string hobby;
@@ -39,7 +39,7 @@ class Pessoa {
         return this->hobby;
     }
 
-    // Método de apresentação da classe
+    // Método de apresentação implementada na classe Pessoa 
     string meApresentar() { 
         string idadeConvertidoParaString = to_string(exibirIdade());
         string apresentacao =  "Olá, me chamo " + exibirNome() + "! Tenho " + idadeConvertidoParaString +
